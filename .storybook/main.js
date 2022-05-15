@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   stories: ['../**/*.stories.mdx', '../**/*.stories.@(js|jsx|ts|tsx)'],
   /** Expose public folder to storybook as static */
@@ -8,6 +10,12 @@ module.exports = {
     '@storybook/addon-interactions',
     'storybook-css-modules-preset',
     'storybook-addon-next-router',
+    {
+      name: 'storybook-addon-next',
+      options: {
+        nextConfigPath: path.resolve(__dirname, '../next.config.js'),
+      },
+    },
     {
       /**
        * Fix Storybook issue with PostCSS@8

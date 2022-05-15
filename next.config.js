@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['pravatar.cc'],
+    domains: ['i.pravatar.cc', 'source.unsplash.com'],
   },
   i18n: {
     locales: ['en', 'fr'],
