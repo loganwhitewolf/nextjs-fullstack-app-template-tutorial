@@ -2353,7 +2353,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-actions@npm:6.4.22, @storybook/addon-actions@npm:^6.4.22":
+"@storybook/addon-actions@npm:6.4.22, @storybook/addon-actions@npm:^6.4.20":
   version: 6.4.22
   resolution: "@storybook/addon-actions@npm:6.4.22"
   dependencies:
@@ -2444,7 +2444,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-docs@npm:6.4.22, @storybook/addon-docs@npm:^6.4.22":
+"@storybook/addon-docs@npm:6.4.22, @storybook/addon-docs@npm:^6.4.20":
   version: 6.4.22
   resolution: "@storybook/addon-docs@npm:6.4.22"
   dependencies:
@@ -2542,7 +2542,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-essentials@npm:^6.4.22":
+"@storybook/addon-essentials@npm:^6.4.20":
   version: 6.4.22
   resolution: "@storybook/addon-essentials@npm:6.4.22"
   dependencies:
@@ -2586,7 +2586,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-interactions@npm:^6.4.22":
+"@storybook/addon-interactions@npm:^6.4.20":
   version: 6.4.22
   resolution: "@storybook/addon-interactions@npm:6.4.22"
   dependencies:
@@ -2614,7 +2614,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-links@npm:^6.4.22":
+"@storybook/addon-links@npm:^6.4.20":
   version: 6.4.22
   resolution: "@storybook/addon-links@npm:6.4.22"
   dependencies:
@@ -2924,7 +2924,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/builder-webpack5@npm:^6.4.22":
+"@storybook/builder-webpack5@npm:^6.4.20":
   version: 6.4.22
   resolution: "@storybook/builder-webpack5@npm:6.4.22"
   dependencies:
@@ -3456,7 +3456,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/manager-webpack5@npm:^6.4.22":
+"@storybook/manager-webpack5@npm:^6.4.20":
   version: 6.4.22
   resolution: "@storybook/manager-webpack5@npm:6.4.22"
   dependencies:
@@ -3570,7 +3570,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react@npm:^6.4.22":
+"@storybook/react@npm:^6.4.20":
   version: 6.4.22
   resolution: "@storybook/react@npm:6.4.22"
   dependencies:
@@ -4127,7 +4127,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.0.9":
+"@types/react@npm:*":
   version: 18.0.9
   resolution: "@types/react@npm:18.0.9"
   dependencies:
@@ -4135,6 +4135,17 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: 162364dad716d9017ee34aabf2ea37499709ebbdef70392ae1b39225985971e1a46f121efb9c5c7da92144ee1d96d4525df806a7c1c03a5db7fd31dd034ddc7a
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:17.0.43":
+  version: 17.0.43
+  resolution: "@types/react@npm:17.0.43"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: 981b0993f5b3ea9d3488b8cc883201e8ae47ba7732929f788f450a79fd72829e658080d5084e67caa008e58d989b0abc1d5f36ff0a1cda09315ea3a3c0c9dc11
   languageName: node
   linkType: hard
 
@@ -11776,15 +11787,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.1.0":
-  version: 18.1.0
-  resolution: "react-dom@npm:18.1.0"
+"react-dom@npm:18.0.0":
+  version: 18.0.0
+  resolution: "react-dom@npm:18.0.0"
   dependencies:
     loose-envify: ^1.1.0
-    scheduler: ^0.22.0
+    scheduler: ^0.21.0
   peerDependencies:
-    react: ^18.1.0
-  checksum: bb0d48eeb0b297c79c2a03978baa29f5b3ff7ba3d070b21e34c9af1a6e7fdf0ca8b8d73e41f9214d91ad40eeb6d1f3559f884cbbc338713374a51320637c23df
+    react: ^18.0.0
+  checksum: dd0ba9f2f31dd728076c892a95b2f5a8dfe79136431b0289afb46eec39d0ca6b6f0f40a60fd8aa6ef702c98ce7c26100d3d4dbc35c7c9e87429cd04f84cb58bd
   languageName: node
   linkType: hard
 
@@ -11964,12 +11975,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.1.0":
-  version: 18.1.0
-  resolution: "react@npm:18.1.0"
+"react@npm:18.0.0":
+  version: 18.0.0
+  resolution: "react@npm:18.0.0"
   dependencies:
     loose-envify: ^1.1.0
-  checksum: 5bb296b561b43ef2220395da4faac86c14a087c8c80e1a7598a5740f01ee605c11eaf249985c1e2000971c4cd32ccb46d40f00479bbd9fb6b1c7cf857393b7d4
+  checksum: 293020b96536b3c7113ee57ca5c990a3f25649d1751b1c7a3aabd16dff0691fe9f1eed1206616d0906d05933536052037340a0c8d0941ff870b0eb469a2f975b
   languageName: node
   linkType: hard
 
@@ -12483,12 +12494,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:^0.22.0":
-  version: 0.22.0
-  resolution: "scheduler@npm:0.22.0"
+"scheduler@npm:^0.21.0":
+  version: 0.21.0
+  resolution: "scheduler@npm:0.21.0"
   dependencies:
     loose-envify: ^1.1.0
-  checksum: a8ef5cab769c020cd6382ad9ecc3f72dbde56a50a36639b3a42ad9c11f7724f03700bcad373044059b8067d4a6365154dc7c0ca8027ef20ff4900cf58a0fc2c5
+  checksum: 4f8285076041ed2c81acdd1faa987f1655fdbd30554bc667c1ea64743fc74fb3a04ca7d27454b3d678735df5a230137a3b84756061b43dc5796e80701b66d124
   languageName: node
   linkType: hard
 
@@ -13639,17 +13650,17 @@ __metadata:
     "@commitlint/cli": ^16.2.4
     "@commitlint/config-conventional": ^16.2.4
     "@mdx-js/react": ^1.6.22
-    "@storybook/addon-actions": ^6.4.22
-    "@storybook/addon-docs": ^6.4.22
-    "@storybook/addon-essentials": ^6.4.22
-    "@storybook/addon-interactions": ^6.4.22
-    "@storybook/addon-links": ^6.4.22
-    "@storybook/builder-webpack5": ^6.4.22
-    "@storybook/manager-webpack5": ^6.4.22
-    "@storybook/react": ^6.4.22
+    "@storybook/addon-actions": ^6.4.20
+    "@storybook/addon-docs": ^6.4.20
+    "@storybook/addon-essentials": ^6.4.20
+    "@storybook/addon-interactions": ^6.4.20
+    "@storybook/addon-links": ^6.4.20
+    "@storybook/builder-webpack5": ^6.4.20
+    "@storybook/manager-webpack5": ^6.4.20
+    "@storybook/react": ^6.4.20
     "@storybook/testing-library": ^0.0.11
     "@types/node": 17.0.31
-    "@types/react": 18.0.9
+    "@types/react": 17.0.43
     "@types/react-dom": 18.0.3
     babel-loader: ^8.2.5
     cross-env: ^7.0.3
@@ -13659,8 +13670,8 @@ __metadata:
     husky: ^8.0.1
     next: 12.1.4
     prettier: ^2.6.2
-    react: 18.1.0
-    react-dom: 18.1.0
+    react: 18.0.0
+    react-dom: 18.0.0
     typescript: 4.6.4
   languageName: unknown
   linkType: soft
