@@ -1,5 +1,4 @@
 // @ts-check
-import { RouterContext } from 'next/dist/shared/lib/router-context';
 import * as NextImage from 'next/image';
 import '../pages/globals.css';
 
